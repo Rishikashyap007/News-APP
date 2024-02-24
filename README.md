@@ -16,7 +16,7 @@ This is a responsive news web application that utilizes HTML, CSS, and JavaScrip
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/your-username/news-app.git
+   git clone(https://github.com/Rishikashyap007/News-APP.git)
    cd news-app
 
 ## Live Demo
