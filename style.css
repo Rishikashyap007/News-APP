@@ -14,12 +14,14 @@ nav{
     background-color: rgb(248, 14, 10,0.9);
     color: white;
     padding: 1rem 1.2rem;
+    gap: 1rem;
 }
 .nav-logo{
     font-size: 2.5rem;
 }
 .nav-right{
     display: flex;
+    /* flex: 1; */
     /* border: 2px solid white; */
     border-radius: 8px ;
     overflow: hidden;
@@ -66,7 +68,7 @@ nav{
 }
 .cardimage{
     height: 100%;
-    width: 300px;
+    width: 100%;
     background-size: cover;
     object-fit: cover;
     /* overflow: hidden; */
@@ -137,12 +139,18 @@ nav{
         grid-template-columns: repeat(1,1fr);
     }
     nav{
-        padding: 0.8rem 1rem;
+        padding: 0.5rem;
+        /* gap: 2rem; */
+    }
+    .nav-logo{
+        font-size: 2rem;
     }
     .nav-search{
-        padding: 0.5rem;
-        font-size: .8rem;
+        padding: .5rem;
+        font-size: 1rem;
         font-weight: 600;
+        width: 180px;
+        height: 40px;
         border: none;
         outline: none;
         background-color: rgba(0, 0, 0, 0.769);
